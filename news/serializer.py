@@ -6,4 +6,3 @@ class NewsThreeSerializers(serializers.ModelSerializers):
     class Meta:
         model = NewsThree
         fields = ['id', 'title', 'description', 'image']
-    
